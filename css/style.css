@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F4E8D0;
+    overflow-x: hidden;
+    color: #312926;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.php1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.title {
+    padding: 20px 0;
+}
+
+.text {
+    padding: 5px 0;
+}
+
+.color {
+    font-weight: 600;
+    color: #B29C62;
+}
+
+.link {
+    color: #312926;
+}
+
+/* .img {
+    width: 50%;
+} */
